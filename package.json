@@ -1,0 +1,26 @@
+{
+  "name": "Socketio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kabi4/Agar-OnlineMultiPlayerGame.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kabi4/Agar-OnlineMultiPlayerGame/issues"
+  },
+  "homepage": "https://github.com/Kabi4/Agar-OnlineMultiPlayerGame#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "socket.io": "^3.1.1"
+  }
+}
